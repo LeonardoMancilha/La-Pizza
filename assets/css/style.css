@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    cursor: pointer;
+}
+
+div.fundo {
+    background-image: url('../img/getulio-moraes-Wz3u9_GtkWc-unsplash 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99vw 71vh;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+span.coloryellow {
+    color: #ffa500;
+}
+
+span.colored {
+    color: #ff0000;
+}
+
+span.colorgreen {
+    color: green;
+}
+
+figure > img {
+    margin-top: -49px;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.pimentao {
+    margin-top: 7%;
+    margin-left: 2%;
+}
+
+section.image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    margin-bottom: 17px;
+    margin-top: 40px;
+    min-width: 235px;
+}
+
+section.leaf {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+    margin-top: -15%;
+    
+}
+
+section.fish {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin-right: 50px;
+}
+
+.image-fish {
+    display: flex;
+    align-items: center;
+    margin-right: 230px;
+}
+
+section.tomatoes {
+    height: 9vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 12%;
+    margin-top: 5%;
+}
+
+section.pizza {
+    display: flex;
+    align-items: flex-start;
+    height: 27rem;
+}
+
+section.vendidas {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section.vendidas .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.vendidas .card .image-heart {
+   z-index: 20;
+   display: flex;
+   align-items: center;
+   margin-left: 2rem;
+}
+
+section.vendidas .card .emoji-heart {
+    border: 2px solid #CF3031;
+    border-radius: 10px;
+    background: #FFD4C9;
+    margin-left: 1rem;
+}
+
+section.vendidas .card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #FEF6F4;
+    border-radius: 25px;
+    width: 256px;
+    height: 275px;
+    padding-top: 5rem;
+    margin-top: -4rem;
+    z-index: 19;
+}
+
+section.vendidas .card .card-content p  {
+    text-align: center;
+}
+
+aside {
+    background: #FCFCFC;
+    max-height: 90vh;
+}
+
+img.piza {
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 4%;
+    border-radius: 70px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);;
+}
+
+img.restaurant {
+    margin-top: -6%;
+    margin-left: 10rem;
+    max-height: 480px;
+}
+
+section.sobre {
+    line-height: 45px;
+    margin-left: 6%;
+    margin-top: -32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+p.descricao {
+    font-style: normal;
+    font-weight: 400;
+    height: 205px;
+    line-height: 162%;
+    max-width: 468px;
+}
+
+h3 {
+    font-family: 'Sora', sans-serif;
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+button {
+    background: #FFA200;
+    border-radius: 25px;
+    border: none;
+    width: 157px;
+    height: 31px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 8px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.btn-ler {
+    min-height: 39px;
+    margin-top: 2rem;
+}
+
+section.ultimapizza {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20%;
+    margin-right: -49%;
+}
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    
+    section.vendidas {
+        display: grid;
+        gap: 2rem;
+        margin-top: 35px;
+    }
+    h2 {
+        margin-top: 44px;
+    }
+}
+
+@media (max-width: 1328px) {
+    section.vendidas {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1200px) {
+    section.tomatoes, img.restaurant, article, figure, section.leaf, section.fish img, section.pimentao, section.mashroom, section.ultimapizza, img.piza {
+        display: none
+    }
+}
+
+@media (max-width: 1200px) {
+    section.pizza {
+        height: 19rem;
+        display: grid;
+        justify-items: center;
+    }
+    .sobre {
+        margin-bottom: 31px;
+        display: grid;
+        justify-items: center;
+    }
+    .btn-ler {
+        
+        width: 100px;
+    }
+    p.descricao {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    h2 {
+        margin-top: 50px;
+    }
+    .image-fish {
+        margin: auto;
+    }
+    footer {
+        margin-top: 12px;
+        padding: 25px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 1268px) {
+    section.ultimapizza {
+        width: 450px;
+    }
+    aside {
+        margin-top: 63px;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    section.ultimapizza {
+        margin-right: -13%;
+    }
+}
+
+@media (max-width: 600px) {
+    div.fundo {
+        min-height: 19rem;
+        background-size: 99vw 45vh;
+    }
+    section.pizza {
+        height: 20rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .btn-ler {
+        margin-top: 1rem;
+    }
+    p.descricao {
+        width: 20rem;
+    }
+}
