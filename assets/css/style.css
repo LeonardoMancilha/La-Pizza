@@ -307,7 +307,7 @@ footer {
 @media (max-width: 600px) {
     div.fundo {
         min-height: 19rem;
-        background-size: 99vw 45vh;
+        background-size: 100vw 46vh;
     }
     section.pizza {
         height: 20rem;
