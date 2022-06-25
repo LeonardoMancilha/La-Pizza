@@ -265,7 +265,7 @@ footer {
 
 @media (max-width: 1200px) {
     section.tomatoes, img.restaurant, article, figure, section.leaf, section.fish img, section.pimentao, section.mashroom, section.ultimapizza, img.piza {
-        display: none
+        display: none;
     }
 }
 
