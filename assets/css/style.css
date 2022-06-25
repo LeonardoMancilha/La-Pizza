@@ -5,15 +5,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
-    cursor: pointer;
 }
 
 div.fundo {
     background-image: url('../img/getulio-moraes-Wz3u9_GtkWc-unsplash 1.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 99vw 71vh;
-    min-height: 70vh;
+    background-size: 100% 100%;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,7 +61,6 @@ section.image {
 
 h2 {
     font-size: 2rem;
-    font-family: 'Sora', sans-serif;
     font-weight: 600;
     margin-bottom: 17px;
     margin-top: 40px;
@@ -151,6 +149,7 @@ section.vendidas .card .card-content {
 
 section.vendidas .card .card-content p  {
     text-align: center;
+    font-size: 14px;
 }
 
 aside {
@@ -189,7 +188,6 @@ p.descricao {
 }
 
 h3 {
-    font-family: 'Sora', sans-serif;
     font-size: 2rem;
 }
 
@@ -198,6 +196,7 @@ h5 {
 }
 
 button {
+    cursor: pointer;
     background: #FFA200;
     border-radius: 25px;
     border: none;
@@ -232,7 +231,6 @@ footer {
 }
 
 @media (max-width: 600px) {
-    
     section.vendidas {
         display: grid;
         gap: 2rem;
@@ -241,6 +239,21 @@ footer {
     h2 {
         margin-top: 44px;
     }
+    div.fundo {
+        height: 27vh;
+     }
+     section.pizza {
+         height: 20rem;
+     }
+     h1 {
+         font-size: 3rem;
+     }
+     .btn-ler {
+         margin-top: 1rem;
+     }
+     p.descricao {
+         width: 20rem;
+     }
 }
 
 @media (max-width: 1328px) {
@@ -267,7 +280,6 @@ footer {
         justify-items: center;
     }
     .btn-ler {
-        
         width: 100px;
     }
     p.descricao {
@@ -297,28 +309,8 @@ footer {
     }
 }
 
-
 @media (max-width: 1440px) {
     section.ultimapizza {
         margin-right: -13%;
-    }
-}
-
-@media (max-width: 600px) {
-    div.fundo {
-        min-height: 19rem;
-        background-size: 99vw 45vh;
-    }
-    section.pizza {
-        height: 20rem;
-    }
-    h1 {
-        font-size: 3rem;
-    }
-    .btn-ler {
-        margin-top: 1rem;
-    }
-    p.descricao {
-        width: 20rem;
     }
 }
