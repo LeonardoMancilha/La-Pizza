@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
-    cursor: pointer;
 }
 
 div.fundo {
@@ -209,6 +208,7 @@ button {
     font-weight: 600;
     font-size: 16px;
     line-height: 15px;
+    cursor: pointer;
 }
 
 .btn-ler {
