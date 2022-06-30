@@ -33,7 +33,7 @@ English: Showing the best-selling pizzas on the menu.
 
 ---
 
-## 🎨 Layout
+## Aplicação
 
 ### Mobile
 
