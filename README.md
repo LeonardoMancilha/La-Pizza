@@ -1,6 +1,6 @@
 <h1 align="center">La Pizza</h1>
 
-<img src="https://user-images.githubusercontent.com/74615811/176552603-8102c346-db59-4e2e-8ea0-51348ad27720.png">
+<img src="https://user-images.githubusercontent.com/74615811/176552603-8102c346-db59-4e2e-8ea0-51348ad27720.png" alt="Imagem da La Pizza">
 
 <p align="center">
 <img src="https://camo.githubusercontent.com/31ddbceac85190c41164841d133e4056da4d4ce57a1a3a8c7cbf40bff1cf71ed/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f64726f70626f782f64726f70626f782d73646b2d6a617661">
@@ -60,7 +60,7 @@ https://user-images.githubusercontent.com/74615811/176752223-5a34ec04-58dd-4899-
 ## 📁 Acesso ao projeto / Access the project
 
 Portuguese: Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/LeonardoMancilha/La-Pizza/find/main). <br>
-English: You can access the project files by clicking [aqui](https://github.com/LeonardoMancilha/La-Pizza/find/main).
+English: You can access the project files by clicking [here](https://github.com/LeonardoMancilha/La-Pizza/find/main).
 
 ## 📝 Licença / License
 
